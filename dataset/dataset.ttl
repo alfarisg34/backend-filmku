@@ -1,0 +1,62 @@
+@prefix data: <http://example.com/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+
+data:1 rdf:type data:game;
+    data:id "113101";
+    data:title "Dota 2";
+    data:platform "PC";
+    data:genre "MOBA";
+    data:publisher "Valve Corporation";
+    data:developer "Valve Corporation";
+    data:urlFoto "";
+    .
+
+data:2 rdf:type data:game;
+    data:id "113102";
+    data:title "League of Legend";
+    data:platform "PC";
+    data:genre "MOBA";
+    data:publisher "Riot Games";
+    data:developer "Riot Games";
+    data:urlFoto "";
+    .
+
+data:3 rdf:type data:game;
+    data:id "113201";
+    data:title "Counter-Strike: Global Offensive";
+    data:platform "PC";
+    data:genre "FPS";
+    data:publisher "Valve Corporation";
+    data:developer "Valve Corporation";
+    data:urlFoto "";
+    .
+
+data:4 rdf:type data:game;
+    data:id "113202";
+    data:title "Rainbow Six Siege";
+    data:platform "PC";
+    data:genre "FPS";
+    data:publisher "Ubisoft";
+    data:developer "Ubisoft";
+    data:urlFoto "";
+    .
+
+data:5 rdf:type data:game;
+    data:id "123101";
+    data:title "Mobile Legends";
+    data:platform "HP";
+    data:genre "MOBA";
+    data:publisher "Moonton";
+    data:developer "Moonton";
+    data:urlFoto "";
+    .
+
+data:6 rdf:type data:game;
+    data:id "133301";
+    data:title "The Legend of Zelda: Breath of the Wild";
+    data:platform "Console";
+    data:genre "Adventure";
+    data:publisher "Nintendo";
+    data:developer "Nintendo";
+    data:urlFoto "";
+    .
