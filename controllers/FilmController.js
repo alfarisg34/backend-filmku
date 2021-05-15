@@ -1,4 +1,4 @@
-const connection = require('../connection/GameConnection');
+const connection = require('../connection/FilmConnection');
 const Format = require('../tools/format');
 
 module.exports.getFilms = async(req, res)=>{
