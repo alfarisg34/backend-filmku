@@ -1,33 +1,32 @@
 const connection = require('../connection/GameConnection');
 const Format = require('../tools/format');
 
-module.exports.getGames = async(req, res)=>{
+module.exports.getFilms = async(req, res)=>{
         try{
             console.log("function starting")
             // Query data dari repo
-            let games = await connection.getGames(req.query);
-
-            if(!games.bindings.length){
+            let films = await connection.getFilms(req.query);
+            if(!films.bindings.length){
                 return res.status(200).json({
                     data:[],
                     message: "Data tidak ditemukan"
                 });
             }
-
-            games = games.bindings.map((game)=>Format(game));
-
+            console.log("hai")
+            films = films.bindings.map((film)=>Format(film));
+            console.log("halo")
             if(req.params.id){
-                let game = games.filter((game)=>{
-                    return game.id == req.params.id
+                let film = films.filter((film)=>{
+                    return film.id == req.params.id
                 });
                 res.status(200).json({
-                    data:game[0],
-                    message: game.length ? 'Data game berhasil didapatkan' : 'Tidak ada hasil dari pencarian'
+                    data:film[0],
+                    message: film.length ? 'Data film berhasil didapatkan' : 'Tidak ada hasil dari pencarian'
                 })
             }else{
                 res.status(200).json({
-                    data: games,
-                    message: "Show all games"
+                    data: films,
+                    message: "Show all films"
                 })
             }
         }catch(err){

@@ -1,7 +1,7 @@
 {
   "name": "back-end",
   "version": "1.0.0",
-  "description": "Back End semantik",
+  "description": "Semweb",
   "main": "app.js",
   "dependencies": {
     "axios": "^0.21.1",
@@ -14,6 +14,6 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "Egy Aranda",
+  "author": "Alfari",
   "license": "ISC"
 }

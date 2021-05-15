@@ -8,34 +8,42 @@ const headers = {
     'Content-Type': 'application/x-www-form-urlencoded; charset=UTF-8'
 }
 
-exports.getGames = async(param)=>{
+exports.getFilms = async(param)=>{
     // Query
     const queryData = {
     query: `PREFIX data:<http://example.com/>
     PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> 
-    SELECT ?id ?title ?platform ?genre ?publisher ?developer ?urlFoto
+    SELECT ?id ?title ?releaseYear ?actor ?director ?genre ?description ?urlPic ?duration
     WHERE{
-        ?sub rdf:type data:game
+        ?sub rdf:type data:film
         OPTIONAL {?sub data:id ?id.}
         OPTIONAL {?sub data:title ?title.}
-        OPTIONAL {?sub data:platform ?platform.}
+        OPTIONAL {?sub data:releaseYear ?releaseYear.}
+        OPTIONAL {?sub data:actor ?actor.}
+        OPTIONAL {?sub data:director ?director.}
         OPTIONAL {?sub data:genre ?genre.}
-        OPTIONAL {?sub data:publisher ?publisher.}
-        OPTIONAL {?sub data:developer ?developer.}
-        OPTIONAL {?sub data:urlFoto ?urlFoto.}
-        FILTER regex(?title, "${param.title ? param.title : ''}", "i")
+        OPTIONAL {?sub data:description ?description.}
+        OPTIONAL {?sub data:urlPic ?urlPic.}
+        OPTIONAL {?sub data:duration ?duration.}
         FILTER regex(?id, "${param.id ? param.id : ''}", "i")
-        FILTER regex(?platform, "${param.platform ? param.platform : ''}", "i")
-        FILTER regex(?developer, "${param.developer ? param.developer : ''}", "i")
-        FILTER regex(?publisher, "${param.publisher ? param.publisher : ''}", "i")
+        FILTER regex(?title, "${param.title ? param.title : ''}", "i")
+        FILTER regex(?releaseYear, "${param.releaseYear ? param.releaseYear : ''}", "i")
+        FILTER regex(?actor, "${param.actor ? param.actor : ''}", "i")
+        FILTER regex(?director, "${param.director ? param.director : ''}", "i")
+        FILTER regex(?genre, "${param.genre ? param.genre : ''}", "i")
+        FILTER regex(?description, "${param.description ? param.description : ''}", "i")
+        FILTER regex(?urlPic, "${param.urlPic ? param.urlPic : ''}", "i")
+        FILTER regex(?duration, "${param.duration ? param.duration : ''}", "i")
     }`
     };
     try{
-        const {data} = await axios(`${DATA_URL}/ggaming/query`,{
+        const {data} = await axios(`${DATA_URL}/filmku/query`,{
             method: 'POST',
             headers,
             data: qs.stringify(queryData)
+
         });
+        console.log(data.results)
         return data.results;
     }catch(err){
         res.status(400).json(err);

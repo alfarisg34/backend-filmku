@@ -2,10 +2,12 @@ module.exports = fn = data => {
     return {
         "id": data.id ? data.id.value : '',
         "title": data.title ? data.title.value : '',
-        "platform": data.platform ? data.platform.value : '',
+        "releaseYear": data.releaseYear ? data.releaseYear.value : '',
+        "actor": data.actor ? data.actor.value : '',
+        "director": data.director ? data.director.value : '',
         "genre": data.genre ? data.genre.value : '',
-        "publisher": data.publisher ? data.publisher.value : '',
-        "developer": data.developer ? data.developer.value : '',
-        "urlFoto": data.urlFoto ? data.urlFoto.value : ''
+        "description": data.description ? data.description.value : '',
+        "urlPic": data.urlPic ? data.urlPic.value : '',
+        "duration": data.duration ? data.duration.value : '',
     }
 }

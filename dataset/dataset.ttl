@@ -1,62 +1,82 @@
 @prefix data: <http://example.com/> .
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 
-data:1 rdf:type data:game;
-    data:id "113101";
-    data:title "Dota 2";
-    data:platform "PC";
-    data:genre "MOBA";
-    data:publisher "Valve Corporation";
-    data:developer "Valve Corporation";
-    data:urlFoto "";
+data:1 rdf:type data:film;
+    data:id "38700";
+    data:title "Bad Boys for Life";
+    data:releaseYear "2020";
+    data:actor "Will Smith";
+    data:actor "Martin Lawrence";
+    data:actor "Paola Nuñez";
+    data:director "Bilall Fallah";
+    data:genre "Thriller";
+    data:genre "Action";
+    data:genre "Crime";
+    data:description "Marcus and Mike are forced to confront new threats, career changes, and midlife crises as they join the newly created elite team AMMO of the Miami police department to take down the ruthless Armando Armas, the vicious leader of a Miami drug cartel.";
+    data:urlPic "https://www.themoviedb.org/t/p/w600_and_h900_bestv2/lP80mN68yrYzDjEuMnkuZi6Pt7e.jpg";
+    data:duration "124";
     .
 
-data:2 rdf:type data:game;
-    data:id "113102";
-    data:title "League of Legend";
-    data:platform "PC";
-    data:genre "MOBA";
-    data:publisher "Riot Games";
-    data:developer "Riot Games";
-    data:urlFoto "";
+data:2 rdf:type data:film;
+    data:id "577922";
+    data:title "Tenet";
+    data:releaseYear "2020";
+    data:actor "John David Washington";
+    data:actor "Robert Pattinson";
+    data:actor "Elizabeth Debicki";
+    data:director "Christopher Nolan";
+    data:genre "Thriller";
+    data:genre "Action";
+    data:genre "Science Fiction";
+    data:description "Armed with only one word - Tenet - and fighting for the survival of the entire world, the Protagonist journeys through a twilight world of international espionage on a mission that will unfold in something beyond real time.";
+    data:urlPic "https://www.themoviedb.org/t/p/w600_and_h900_bestv2/k68nPLbIST6NP96JmTxmZijEvCA.jpg";
+    data:duration "150";
     .
 
-data:3 rdf:type data:game;
-    data:id "113201";
-    data:title "Counter-Strike: Global Offensive";
-    data:platform "PC";
-    data:genre "FPS";
-    data:publisher "Valve Corporation";
-    data:developer "Valve Corporation";
-    data:urlFoto "";
+data:3 rdf:type data:film;
+    data:id "539537";
+    data:title "Fantasy Island";
+    data:releaseYear "2020";
+    data:actor "Michael Peña";
+    data:actor "Maggie Q";
+    data:actor "Lucy Hale";
+    data:director "Jeff Wadlow";
+    data:genre "Horror";
+    data:genre " Fantasy";
+    data:genre " Adventure";
+    data:description "A group of contest winners arrive at an island hotel to live out their dreams, only to find themselves trapped in nightmare scenarios.";
+    data:urlPic "https://www.themoviedb.org/t/p/w600_and_h900_bestv2/8ZMrZGGW65ePWIgRn1260nA1uUm.jpg";
+    data:duration "109";
     .
 
-data:4 rdf:type data:game;
-    data:id "113202";
-    data:title "Rainbow Six Siege";
-    data:platform "PC";
-    data:genre "FPS";
-    data:publisher "Ubisoft";
-    data:developer "Ubisoft";
-    data:urlFoto "";
+data:4 rdf:type data:film;
+    data:id "464052";
+    data:title "Wonder Woman 1984";
+    data:releaseYear "2020";
+    data:actor "Gal Gadot";
+    data:actor "Chris Pine";
+    data:actor "Kristen Wiig";
+    data:director "Patty Jenkins";
+    data:genre " Action";
+    data:genre " Fantasy";
+    data:genre " Adventure";
+    data:description "A botched store robbery places Wonder Woman in a global battle against a powerful and mysterious ancient force that puts her powers in jeopardy.";
+    data:urlPic "https://www.themoviedb.org/t/p/w600_and_h900_bestv2/8UlWHLMpgZm9bx6QYh0NFoq67TZ.jpg";
+    data:duration "151";
     .
 
-data:5 rdf:type data:game;
-    data:id "123101";
-    data:title "Mobile Legends";
-    data:platform "HP";
-    data:genre "MOBA";
-    data:publisher "Moonton";
-    data:developer "Moonton";
-    data:urlFoto "";
-    .
-
-data:6 rdf:type data:game;
-    data:id "133301";
-    data:title "The Legend of Zelda: Breath of the Wild";
-    data:platform "Console";
-    data:genre "Adventure";
-    data:publisher "Nintendo";
-    data:developer "Nintendo";
-    data:urlFoto "";
+data:5 rdf:type data:film;
+    data:id "497582";
+    data:title "Enola Holmes";
+    data:releaseYear "2020";
+    data:actor "Millie Bobby Brown";
+    data:actor "Henry Cavill";
+    data:actor "Sam Claflin";
+    data:director "Harry Bradbeer";
+    data:genre " Crime";
+    data:genre "  Mystery";
+    data:genre " Adventure";
+    data:description "While searching for her missing mother, intrepid teen Enola Holmes uses her sleuthing skills to outsmart big brother Sherlock and help a runaway lord.";
+    data:urlPic "https://www.themoviedb.org/t/p/w600_and_h900_bestv2/riYInlsq2kf1AWoGm80JQW5dLKp.jpg";
+    data:duration "123";
     .
