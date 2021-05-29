@@ -16,7 +16,7 @@ module.exports = {
                 })
             }
 
-            films = films.bindings.map((film) => FilmFormat(film));
+            films = films.bindings.map((film) => FormatFilm(film));
 
             if (req.params.id) {
                 let film = films.filter((films) => { return film.uri.substring(19) == req.params.id });
@@ -90,7 +90,7 @@ module.exports = {
                 })
             }
 
-            films = films.bindings.map((film) => FilmFormat(film));
+            films = films.bindings.map((film) => FormatFilm(film));
 
             return res.status(200).json({
                 success: true,
