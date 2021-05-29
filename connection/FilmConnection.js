@@ -24,13 +24,6 @@ exports.getFilms = async(param)=>{
         OPTIONAL {?sub data:description ?description.}
         OPTIONAL {?sub data:urlPic ?urlPic.}
         OPTIONAL {?sub data:duration ?duration.}
-        FILTER regex(?title, "${param.title ? param.title : ''}", "i")
-        FILTER regex(?releaseYear, "${param.releaseYear ? param.releaseYear : ''}", "i")
-        FILTER regex(?actor, "${param.actor ? param.actor : ''}", "i")
-        FILTER regex(?director, "${param.director ? param.director : ''}", "i")
-        FILTER regex(?description, "${param.description ? param.description : ''}", "i")
-        FILTER regex(?genre, "${param.genre ? param.genre : ''}", "i")
-        FILTER regex(?duration, "${param.duration ? param.duration : ''}", "i")
     }`
     };
     try{
