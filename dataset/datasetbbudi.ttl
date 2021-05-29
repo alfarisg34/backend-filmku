@@ -1,0 +1,476 @@
+@prefix data: <http://example.com/> . 
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+
+data:001 rdf:type data:review;
+data:title "Assassin's Creed IV: Black Flag";
+data:description "Edward Kenway yang pada awalnya bekerja untuk pemerintahan Inggris (Privateer) membelot menjadi bajak laut yang secara tidak sengaja berpapasan dengan seorang Assassin yang sedang melakukan perjalanan.";
+data:cover "https://upload.wikimedia.org/wikipedia/en/2/28/Assassin%27s_Creed_IV_-_Black_Flag_cover.jpg";
+data:ign "https://www.ign.com/articles/2013/10/29/assassins-creed-4-black-flag-review";
+data:gamespot "https://www.gamespot.com/games/assassins-creed-iv-black-flag/";
+data:metacritic "https://www.metacritic.com/game/playstation-4/assassins-creed-iv-black-flag";
+.
+
+data:002 rdf:type data:review;
+data:title "Call of Duty: Black Ops II";
+data:description "David Mason (codename: Section) yang beraksi jauh di masa depan – tepatnya di tahun 2025, dan sang karakter utama dari seri pertama, yang juga merupakan sang ayah – Alex Mason yang beraksi di pertengahan tahun 1980-an. Kedua karakter ini akan membawa Anda dalam satu plot utama yang sama, lewat alur bercerita yang maju dan mundur antara keduanya";
+data:cover "https://upload.wikimedia.org/wikipedia/en/0/05/Call_of_Duty_Black_Ops_II_box_artwork.png";
+data:ign "https://sea.ign.com/review/59443/ulasan-call-of-duty-black-ops-2";
+data:gamespot "https://www.gamespot.com/games/call-of-duty-black-ops-ii/";
+data:metacritic "https://www.metacritic.com/game/xbox-360/call-of-duty-black-ops-ii";
+.
+
+data:003 rdf:type data:review;
+data:title "Grand Theft Auto: San Andreas";
+data:description "Berlatar akhir tahun 1992, San Andreas berpusat pada seorang anggota gang jalanan bernama Carl Johnson yang kembali pulang dari Liberty City ke Los Santos setelah mengetahui kematian Ibunya.";
+data:cover "https://upload.wikimedia.org/wikipedia/id/c/c4/GTASABOX.jpg";
+data:ign "https://sea.ign.com/grand-theft-auto-san-andreas/83035/review/gta-san-andreas-hd-review";
+data:gamespot "https://www.gamespot.com/games/grand-theft-auto-san-andreas/";
+data:metacritic "https://www.metacritic.com/game/playstation-2/grand-theft-auto-san-andreas";
+.
+
+data:004 rdf:type data:review;
+data:title "Need for Speed: Most Wanted";
+data:description "Cerita dimulai ketika kamu sebagai pemain baru dalam balapan liar di Kota Rockport. Untuk menarik perhatian pembalap lainnya, kamu berkeliling kota menggunakan mobilmu yaitu BMW M3 GTR yang sudah di full modifikasi. kamu bertemu dengan wanita muda yang diduga adalah salah satu dari anggota Blacklist.";
+data:cover "https://upload.wikimedia.org/wikipedia/en/8/8e/Need_for_Speed_Most_Wanted_Box_Art.jpg";
+data:ign "https://sea.ign.com/review/59313/ulasan-need-for-speed-most-wanted";
+data:gamespot "https://www.gamespot.com/games/need-for-speed-most-wanted-2005/";
+data:metacritic "https://www.metacritic.com/game/playstation-2/need-for-speed-most-wanted";
+.
+
+data:005 rdf:type data:review;
+data:title "Tom Clancy's Splinter Cell: Blacklist";
+data:description "Splinter Cell: Blacklist ini diawali dengan kejadian dimana markas Amerika diserang oleh sekelompok teroris yang mengaku bernama The Engineers, teroris ini berniat untuk menghancurkan semua aset milik Amerika yang bernama Blacklist";
+data:cover "https://upload.wikimedia.org/wikipedia/en/4/47/Tom_Clancy%27s_Splinter_Cell_Blacklist_box_art.png";
+data:ign "https://sea.ign.com/splinter-cell-blacklist/64174/review/splinter-cell-blacklist-review";
+data:gamespot "https://www.gamespot.com/games/tom-clancys-splinter-cell-blacklist/";
+data:metacritic "https://www.metacritic.com/game/pc/tom-clancys-splinter-cell-blacklist";
+.
+
+data:006 rdf:type data:review;
+data:title "Far Cry 3";
+data:description "Liburan yang berakhir bencana dan nasib buruk, ini tampaknya menjadi kesimpulan yang paling tepat untuk menggambarkan kehidupan Jason Brody, sang karakter utama di Far Cry 3. Niat untuk menikmati indahnya iklim dan setting tropis yang ditawarkan oleh Rook Island, Papua Nugini ternyata berubah menjadi petualangan untuk sekedar bertahan hidup.";
+data:cover "https://upload.wikimedia.org/wikipedia/en/c/c6/Far_Cry_3_PAL_box_art.jpg";
+data:ign "https://sea.ign.com/review/59532/far-cry-3-video-review";
+data:gamespot "https://www.gamespot.com/games/far-cry-3/";
+data:metacritic "https://www.metacritic.com/game/pc/far-cry-3";
+.
+
+data:007 rdf:type data:review;
+data:title "Portal 2";
+data:description "Portal 2 adalah permainan video puzzle-platform 2011 yang dikembangkan oleh Valve untuk Windows, Mac OS X, Linux, PlayStation 3, dan Xbox 360. Versi PC digital didistribusikan secara online oleh layanan Steam Valve, sementara semua edisi retail didistribusikan oleh Electronic Arts .";
+data:cover "https://upload.wikimedia.org/wikipedia/en/f/f9/Portal2cover.jpg";
+data:ign "https://www.ign.com/articles/2011/04/19/portal-2-review";
+data:gamespot "https://www.gamespot.com/reviews/portal-2-review/1900-6309270/";
+data:metacritic "https://www.metacritic.com/game/pc/portal-2";
+.
+
+data:008 rdf:type data:review;
+data:title "Terraria";
+data:description "Terraria adalah game sandbox aksi-petualangan yang dikembangkan oleh Re-Logic. Game ini pertama kali dirilis untuk Microsoft Windows pada 16 Mei 2011 dan sejak itu telah di-porting ke beberapa platform lain. Game ini menampilkan eksplorasi, kerajinan, membangun, melukis, dan bertarung dengan berbagai makhluk dalam dunia 2D yang dibuat secara prosedural. Terraria menerima ulasan yang umumnya positif, dengan pujian yang diberikan pada elemen kotak pasirnya. Game ini telah terjual lebih dari 35 juta kopi pada akhir tahun 2020 .";
+data:cover "https://buy-keys.com/wp-content/uploads/2021/01/terraria_cover_original-1.png";
+data:ign "https://www.ign.com/articles/2011/05/25/terraria-review";
+data:gamespot "https://www.gamespot.com/reviews/terraria-review/1900-6415621/";
+data:metacritic "https://www.metacritic.com/game/pc/terraria";
+.
+
+data:009 rdf:type data:review;
+data:title "Grand Theft Auto V";
+data:description "Grand Theft Auto V adalah game aksi-petualangan 2013 yang dikembangkan oleh Rockstar North dan diterbitkan oleh Rockstar Games. Ini adalah entri utama pertama dalam seri Grand Theft Auto sejak Grand Theft Auto IV 2008. Berlatar di negara bagian fiksi San Andreas, berdasarkan California Selatan, cerita pemain tunggal mengikuti tiga protagonis — pensiunan perampok bank Michael De Santa, gangster jalanan Franklin Clinton, dan pengedar narkoba dan penyelundup senjata Trevor Philips — dan upaya mereka untuk melakukan perampokan saat berada di bawah tekanan dari badan pemerintah yang korup dan penjahat yang berkuasa. Desain dunia terbuka memungkinkan pemain dengan bebas menjelajahi pedesaan terbuka San Andreas dan kota fiksi Los Santos, yang berbasis di Los Angeles.";
+data:cover "https://upload.wikimedia.org/wikipedia/en/a/a5/Grand_Theft_Auto_V.png";
+data:ign "https://www.ign.com/articles/2013/09/16/grand-theft-auto-v-review";
+data:gamespot "https://www.gamespot.com/reviews/grand-theft-auto-v-review/1900-6414475/";
+data:metacritic "https://www.metacritic.com/game/pc/grand-theft-auto-v";
+.
+
+data:010 rdf:type data:review;
+data:title "Subnautica";
+data:description "Subnautica adalah video game aksi-petualangan bertahan hidup dunia terbuka yang dikembangkan dan diterbitkan oleh Unknown Worlds Entertainment. Di dalamnya, pemain bebas menjelajahi lautan di planet asing, yang dikenal sebagai planet 4546B, setelah pesawat luar angkasa mereka, Aurora, menabrak permukaan planet. Pemain harus mengumpulkan sumber daya dan menghadapi makhluk untuk bertahan hidup. Subnautica dirilis pada akses awal untuk Microsoft Windows pada Desember 2014, Mac OS X pada Juni 2015, dan untuk Xbox One pada Mei 2016. Subnautica dirilis dari akses awal pada Januari 2018 untuk Microsoft Windows dan mac OS, dengan versi untuk Xbox One dan PlayStation 4 pada Desember 2018. Versi konsol fisik diterbitkan oleh Gearbox Publishing. Nintendo Switch, PlayStation 5, dan Xbox Series X. ";
+data:cover "https://upload.wikimedia.org/wikipedia/en/6/6d/Subnautica_cover_art.png?1621216442215";
+data:ign "https://www.ign.com/articles/2018/01/26/subnautica-review";
+data:gamespot "https://www.gamespot.com/reviews/subnautica-review-a-water-wonderland/1900-6416847/";
+data:metacritic "https://www.metacritic.com/game/pc/subnautica";
+.
+
+data:011 rdf:type data:review;
+data:title "The Witcher 3: Wild Hunt";
+data:description "Witcher Geralt dari Rivia dalam mencari sesama kekasihnya, penyihir Yennefer dari Vengerberg mengetahui bahwa mantan murid Witcher Cirilla yang menghilang bertahun-tahun yang lalu telah kembali ke Temeria dan dikejar oleh The Wild Hunt, sekelompok pengendara malam yang menekan membawa pertanda kematian dan kehancuran pada apa pun yang melintasi jalan mereka. Geralt kemudian memulai pencarian untuk menemukan Cirilla sebelum The Wild Hunt mendapatkannya terlebih dahulu. ";
+data:cover "https://upload.wikimedia.org/wikipedia/en/0/0c/Witcher_3_cover_art.jpg?1621788609797";
+data:ign "https://www.ign.com/articles/2015/05/12/the-witcher-3-the-wild-hunt-review";
+data:gamespot "https://www.gamespot.com/reviews/the-witcher-3-wild-hunt-review/1900-6416135/";
+data:metacritic "https://www.metacritic.com/game/playstation-4/the-witcher-3-wild-hunt";
+.
+
+data:012 rdf:type data:review;
+data:title "Minecraft";
+data:description "Minecraft adalah video game sandbox yang dikembangkan oleh Mojang. Game tersebut diciptakan oleh Markus Notch Persson dalam bahasa pemrograman Java. Mengikuti beberapa versi pengujian pribadi awal, ini pertama kali dipublikasikan pada Mei 2009 sebelum dirilis sepenuhnya pada November 2011, dengan Jens Bergensten kemudian mengambil alih pengembangan. Minecraft sejak itu telah di-porting ke beberapa platform lain dan merupakan video game terlaris sepanjang masa, dengan 200 juta eksemplar terjual dan 126 juta pengguna aktif bulanan pada tahun 2020. ";
+data:cover "https://upload.wikimedia.org/wikipedia/en/5/51/Minecraft_cover.png";
+data:ign "https://www.ign.com/articles/2011/11/24/minecraft-review";
+data:gamespot "https://www.gamespot.com/reviews/minecraft-review/1900-6346734/";
+data:metacritic "https://www.metacritic.com/game/pc/minecraft";
+.
+
+data:013 rdf:type data:review;
+data:title "Red Dead Redemption";
+data:description "John Marston diperas oleh penegak hukum pemerintah untuk memburu mantan partner-in-crime. Mendorong lebih jauh ke Barat Daya Amerika, Marston segera menemukan bahwa Williams telah menyeberang ke Meksiko, sebuah negara di tengah perang saudara. Di setiap kesempatan, Marston harus memilih apakah akan berpihak pada penjahat atau tidak bersalah dalam baku tembak.";
+data:cover "https://upload.wikimedia.org/wikipedia/en/a/a7/Red_Dead_Redemption.jpg";
+data:ign "https://www.ign.com/articles/2010/05/17/red-dead-redemption-review";
+data:gamespot "https://www.gamespot.com/reviews/red-dead-redemption-review/1900-6262899/";
+data:metacritic "https://www.metacritic.com/game/xbox-360/red-dead-redemption";
+.
+
+data:014 rdf:type data:review;
+data:title "Red Dead Redemption 2";
+data:description "Saat itu tahun 1899. Era Wild West mulai berakhir ketika pemerintah federal menegaskan kontrolnya atas wilayah tanpa hukum. Menyadari kekayaan mereka memudar, geng Van der Linde yang terkenal kejam yang dipimpin oleh Belanda merencanakan perampokan bank besar terakhir yang bisa membuat mereka seumur hidup. Namun, pencurian berjalan serba salah dengan beberapa anggota geng tewas atau ditangkap; geng tersebut terpaksa melarikan diri ke seluruh negeri dengan hukum yang mengejar mereka. Tidak terpengaruh, Belanda berharap untuk melakukan pencurian terakhir dan melarikan diri dari negara itu. Namun, setiap skema berakhir dengan kegagalan dalam satu atau lain cara. Letnan paling terpercaya di Belanda, Arthur Morgan, melihat kesetiaannya kepada geng diuji karena dia dipaksa untuk menerima perubahan zaman. ";
+data:cover "https://upload.wikimedia.org/wikipedia/en/4/44/Red_Dead_Redemption_II.jpg";
+data:ign "https://www.ign.com/articles/2018/10/25/red-dead-redemption-2-review";
+data:gamespot "https://www.gamespot.com/reviews/red-dead-redemption-2-review-wild-wild-west/1900-6417019/";
+data:metacritic "https://www.metacritic.com/game/pc/red-dead-redemption-2";
+.
+
+data:015 rdf:type data:review;
+data:title "The Legend of Zelda: Breath of the Wild";
+data:description "The Legend of Zelda: Breath of the Wild adalah game aksi-petualangan 2017 yang dikembangkan dan diterbitkan oleh Nintendo untuk konsol Nintendo Switch dan Wii U. Breath of the Wild adalah bagian dari franchise Legend of Zelda dan diatur di akhir garis waktu Zelda; pemain mengontrol Link, yang terbangun dari tidur seratus tahun untuk mengalahkan Calamity Ganon dan menyelamatkan kerajaan Hyrule.";
+data:cover "https://upload.wikimedia.org/wikipedia/en/c/c6/The_Legend_of_Zelda_Breath_of_the_Wild.jpg";
+data:ign "https://www.ign.com/articles/2017/03/02/the-legend-of-zelda-breath-of-the-wild-review";
+data:gamespot "https://www.gamespot.com/reviews/the-legend-of-zelda-breath-of-the-wild-review/1900-6416626/";
+data:metacritic "https://www.metacritic.com/game/switch/the-legend-of-zelda-breath-of-the-wild";
+.
+
+data:016 rdf:type data:review;
+data:title "The Last of Us";
+data:description "The Last of Us adalah game aksi-petualangan 2013 yang dikembangkan oleh Naughty Dog dan diterbitkan oleh Sony Computer Entertainment. Pemain mengontrol Joel, seorang penyelundup yang ditugaskan untuk mengawal seorang gadis remaja, Ellie, melintasi Amerika Serikat pasca-apokaliptik. The Last of Us dimainkan dari sudut pandang orang ketiga. Pemain menggunakan senjata api dan senjata improvisasi, dan dapat menggunakan siluman untuk bertahan melawan manusia yang bermusuhan dan makhluk kanibal yang terinfeksi oleh jamur yang bermutasi di genus Cordyceps. Dalam mode multipemain online, hingga delapan pemain terlibat dalam permainan yang kooperatif dan kompetitif.";
+data:cover "https://upload.wikimedia.org/wikipedia/en/4/46/Video_Game_Cover_-_The_Last_of_Us.jpg";
+data:ign "https://www.ign.com/articles/2013/06/05/the-last-of-us-review";
+data:gamespot "https://www.gamespot.com/reviews/the-last-of-us-review/1900-6409197/";
+data:metacritic "https://www.metacritic.com/game/playstation-3/the-last-of-us";
+.
+
+data:017 rdf:type data:review;
+data:title "The Last of Us Part II";
+data:description "The Last of Us Part II adalah gim aksi-petualangan 2020 yang dikembangkan oleh Naughty Dog dan diterbitkan oleh Sony Interactive Entertainment untuk PlayStation 4. Berlatar lima tahun setelah The Last of Us (2013), gim ini berfokus pada dua karakter yang dapat dimainkan dalam sebuah pos Amerika Serikat -apokaliptik yang hidupnya saling terkait: Ellie, yang bersiap untuk balas dendam setelah mengalami tragedi, dan Abby, seorang tentara yang terlibat dalam konflik antara milisinya dan sekte agama. Gim ini dimainkan dari perspektif orang ketiga dan memungkinkan pemain untuk melawan musuh manusia dan makhluk kanibal seperti zombie dengan senjata api, senjata improvisasi, dan siluman.";
+data:cover "https://upload.wikimedia.org/wikipedia/en/4/4f/TLOU_P2_Box_Art_2.png";
+data:ign "https://www.ign.com/articles/the-last-of-us-part-2-review";
+data:gamespot "https://www.gamespot.com/reviews/the-last-of-us-part-2-spoilerfree-review/1900-6417483/";
+data:metacritic "https://www.metacritic.com/game/playstation-4/the-last-of-us-part-ii";
+.
+
+data:018 rdf:type data:review;
+data:title "God of War";
+data:description "God of War adalah game aksi-petualangan yang dikembangkan oleh Santa Monica Studio dan diterbitkan oleh Sony Interactive Entertainment (SIE). Dirilis di seluruh dunia pada 20 April 2018, untuk PlayStation 4 (PS4), ini adalah angsuran kedelapan dalam seri God of War, yang kedelapan secara kronologis, dan sekuel God of War III 2010. Tidak seperti game sebelumnya, yang secara longgar didasarkan pada mitologi Yunani, seri ini terinspirasi dari mitologi Norse, dengan sebagian besar berlatar di Skandinavia kuno di ranah Midgard. Untuk pertama kalinya dalam serial ini, ada dua protagonis: Kratos, mantan Dewa Perang Yunani yang tetap menjadi satu-satunya karakter yang dapat dimainkan, dan putranya yang masih kecil Atreus. Setelah kematian istri kedua Kratos dan ibu Atreus, mereka melakukan perjalanan untuk memenuhi permintaannya agar abunya disebar di puncak tertinggi dari sembilan alam. Kratos merahasiakan masa lalunya yang bermasalah itu dari Atreus, yang tidak menyadari sifat keilahiannya. Sepanjang perjalanan mereka, mereka bertemu monster dan dewa dunia Norse.";
+data:cover "https://upload.wikimedia.org/wikipedia/en/a/a7/God_of_War_4_cover.jpg";
+data:ign "https://www.ign.com/articles/2018/04/12/god-of-war-review";
+data:gamespot "https://www.gamespot.com/reviews/god-of-war-review-out-with-the-old-in-with-the-new/1900-6416893/";
+data:metacritic "https://www.metacritic.com/game/playstation-4/god-of-war";
+.
+
+data:019 rdf:type data:review;
+data:title "Doom";
+data:description "Doom adalah game first-person shooter 2016 yang dikembangkan oleh id Software dan diterbitkan oleh Bethesda Softworks. Ini adalah angsuran besar pertama dalam seri ini sejak Doom 3 (2004). Pemain mengambil peran sebagai seorang marinir luar angkasa yang tidak disebutkan namanya, yang dikenal sebagai Pembunuh Doom, saat ia bertempur melawan kekuatan iblis dari Neraka yang telah dilepaskan oleh Union Aerospace Corporation dalam fasilitas penambangan energi mereka di Mars. Gameplay kembali ke kecepatan yang lebih cepat dengan level yang lebih terbuka, lebih dekat ke dua game pertama daripada pendekatan survival horror yang lebih lambat dari Doom 3. Ini juga menampilkan penjelajahan lingkungan, peningkatan karakter, dan kemampuan untuk melakukan eksekusi yang dikenal sebagai Glory Kills .";
+data:cover "https://upload.wikimedia.org/wikipedia/en/2/28/Doom_Cover.jpg";
+data:ign "https://www.ign.com/articles/2016/05/16/doom-review-2";
+data:gamespot "https://www.gamespot.com/reviews/doom-review/1900-6416432/";
+data:metacritic "https://www.metacritic.com/game/pc/doom";
+.
+
+data:020 rdf:type data:review;
+data:title "Doom Eternal";
+data:description "Doom Eternal adalah game penembak orang pertama yang dikembangkan oleh id Software dan diterbitkan oleh Bethesda Softworks. Sekuel Doom (2016), dan game utama kelima dalam seri Doom, dirilis pada 20 Maret 2020, untuk Windows, PlayStation 4, Stadia dan Xbox One, dengan versi untuk Nintendo Switch yang dirilis pada 8 Desember, 2020 dan versi untuk PlayStation 5 dan Xbox Series X dan Series S sedang direncanakan. Berlatar beberapa waktu setelah peristiwa game 2016, ceritanya mengikuti Doomguy sekali lagi, dalam misi untuk mengakhiri konsumsi Neraka atas Bumi dan menggagalkan rencana alien Maykr untuk memusnahkan umat manusia.";
+data:cover "https://upload.wikimedia.org/wikipedia/en/9/9d/Cover_Art_of_Doom_Eternal.png";
+data:ign "https://www.ign.com/articles/doom-eternal-final-review";
+data:gamespot "https://www.gamespot.com/reviews/doom-eternal-review-intelligent-inferno/1900-6417432/";
+data:metacritic "https://www.metacritic.com/game/pc/doom-eternal";
+.
+
+data:021 rdf:type data:review;
+data:title "Borderlands";
+data:description "Borderlands adalah permainan video penembak orang pertama aksi dunia terbuka tahun 2009. Ini adalah game pertama dalam seri Borderlands, yang dikembangkan oleh Gearbox Software, dan diterbitkan oleh 2K Games untuk PlayStation 3, Xbox 360, Windows, Mac OS X dan Shield Android TV. [5] [6] Permainan ini dirilis di seluruh dunia pada bulan Oktober 2009, [1] dengan versi Mac OS X yang dirilis pada tanggal 3 Desember 2010 oleh Feral Interactive. [7] Cerita gim ini berfokus pada empat Vault Hunters, yang melakukan perjalanan ke planet jauh Pandora untuk mencari Vault, yang dikabarkan berisi teknologi alien canggih dan kekayaan tak ternilai lainnya. Para pemburu mengumpulkan petunjuk untuk menemukan Vault sambil melawan satwa liar liar Pandora dan bandit serta penjahat yang menghuni planet ini, akhirnya bersatu untuk mencegah Atlas Corporation dan pasukan paramiliter yang didanai swasta mencapai Vault terlebih dahulu.";
+data:cover "https://upload.wikimedia.org/wikipedia/en/0/01/Borderlandscover.jpg";
+data:ign "https://www.ign.com/articles/2009/10/19/borderlands-review";
+data:gamespot "https://www.gamespot.com/games/borderlands/";
+data:metacritic "https://www.metacritic.com/game/pc/borderlands";
+.
+
+data:022 rdf:type data:review;
+data:title "Borderlands 2";
+data:description "Borderlands 2 adalah gim video penembak orang pertama tahun 2012 yang dikembangkan oleh Gearbox Software dan diterbitkan oleh 2K Games. Berlangsung lima tahun setelah peristiwa Borderlands (2009), game ini sekali lagi berlatar di planet Pandora. Ceritanya mengikuti kelompok baru Pemburu Vault yang harus bersekutu dengan Crimson Raiders, kelompok perlawanan yang terdiri dari korban sipil dan pejuang gerilya, untuk mengalahkan Jack Tampan tirani sebelum dia dapat membuka kekuatan Vault baru. Gim ini memiliki kemampuan untuk menjelajahi dunia dalam gim dan menyelesaikan misi utama dan misi sampingan opsional, baik dalam permainan pemain tunggal atau kooperatif online. Seperti pendahulunya, gim ini memiliki sistem jarahan yang dihasilkan secara prosedural yang mampu menghasilkan banyak kombinasi senjata dan perlengkapan lainnya.";
+data:cover "https://upload.wikimedia.org/wikipedia/en/5/51/Borderlands_2_cover_art.png";
+data:ign "https://www.ign.com/articles/2012/09/14/borderlands-2-review";
+data:gamespot "https://www.gamespot.com/games/borderlands-2/reviews/";
+data:metacritic "https://www.metacritic.com/game/pc/borderlands-2";
+.
+
+data:023 rdf:type data:review;
+data:title "Borderlands 3";
+data:description "Borderlands 3 adalah gim video penembak orang pertama bermain peran yang dikembangkan oleh Gearbox Software dan diterbitkan oleh 2K Games. Ini adalah sekuel Borderlands 2 tahun 2012, dan entri keempat dalam seri utama Borderlands. Borderlands 3 dirilis pada 13 September 2019 untuk Microsoft Windows, PlayStation 4, Xbox One dan pada 30 Oktober 2019 untuk Apple macOS. Port Stadia dirilis pada 17 Desember 2019. Versi untuk Xbox Series X dan Series S dan PlayStation 5 termasuk peningkatan gratis untuk pengguna pada versi konsol sebelumnya dirilis masing-masing pada 10 dan 12 November.";
+data:cover "https://upload.wikimedia.org/wikipedia/en/2/21/Borderlands_3_cover_art.jpg";
+data:ign "https://www.ign.com/articles/2019/09/09/borderlands-3-review";
+data:gamespot "https://www.gamespot.com/reviews/borderlands-3-review-six-sirens-one-god-queen/1900-6417293/";
+data:metacritic "https://www.metacritic.com/game/pc/borderlands-3";
+.
+
+data:024 rdf:type data:review;
+data:title "Fallout: New Vegas";
+data:description "Fallout: New Vegas adalah video game aksi pasca-apokaliptik 2010 yang dikembangkan oleh Obsidian Entertainment dan diterbitkan oleh Bethesda Softworks. Itu diumumkan pada bulan April 2009 dan dirilis untuk Microsoft Windows, PlayStation 3, dan Xbox 360 pada tanggal 19 Oktober 2010. Sebuah spin-off dari seri Fallout, permainan diatur dalam lingkungan dunia terbuka pasca-apokaliptik yang mencakup wilayah yang terdiri dari Arizona, California, dan Nevada. Ini berlatarkan dunia yang menyimpang ke garis waktu alternatif berkat teknologi Zaman Atom, yang akhirnya menyebabkan kiamat nuklir global pada tahun 2077 dalam sebuah peristiwa yang disebut sebagai Perang Besar, yang disebabkan oleh konflik besar antara AS. dan China atas sumber daya alam. Kisah utama New Vegas terjadi pada tahun 2281, empat tahun setelah peristiwa Fallout 3 dan 204 tahun setelah bom jatuh. Ini bukan sekuel langsung, tetapi menandai kembalinya beberapa elemen yang ditemukan di Fallout 2.";
+data:cover "https://upload.wikimedia.org/wikipedia/en/3/34/Fallout_New_Vegas.jpg";
+data:ign "https://www.ign.com/articles/2010/10/19/fallout-new-vegas-review";
+data:gamespot "https://www.gamespot.com/games/fallout-new-vegas/reviews/";
+data:metacritic "https://www.metacritic.com/game/pc/fallout-new-vegas";
+.
+
+data:025 rdf:type data:review;
+data:title "Fallout 4";
+data:description "Fallout 4 adalah game role-playing aksi yang dikembangkan oleh Bethesda Game Studios dan diterbitkan oleh Bethesda Softworks. Ini adalah game utama keempat dalam seri Fallout dan dirilis di seluruh dunia pada 10 November 2015, untuk Microsoft Windows, PlayStation 4 dan Xbox One. Permainan diatur dalam lingkungan pasca-apokaliptik dunia terbuka yang mencakup kota Boston dan wilayah sekitar Massachusetts yang dikenal sebagai Persemakmuran. Itu memanfaatkan sejumlah landmark lokal, termasuk Bunker Hill, Fort Independence, dan Old North Bridge dekat Concord, sebagai jembatan keluar dari Sanctuary Hills.";
+data:cover "https://upload.wikimedia.org/wikipedia/en/7/70/Fallout_4_cover_art.jpg";
+data:ign "https://www.ign.com/articles/2015/11/09/fallout-4-review";
+data:gamespot "https://www.gamespot.com/reviews/fallout-4-review/1900-6416306/";
+data:metacritic "https://www.metacritic.com/game/pc/fallout-4";
+.
+
+data:026 rdf:type data:review;
+data:title "Skyrim";
+data:description "The Elder Scrolls V: Skyrim adalah video game aksi dunia terbuka yang dikembangkan oleh Bethesda Game Studios dan diterbitkan oleh Bethesda Softworks. Ini adalah angsuran utama kelima dalam seri The Elder Scrolls, setelah The Elder Scrolls IV: Oblivion tahun 2006, dan dirilis di seluruh dunia untuk Microsoft Windows, PlayStation 3, dan Xbox 360 pada 11 November 2011.";
+data:cover "https://upload.wikimedia.org/wikipedia/en/1/15/The_Elder_Scrolls_V_Skyrim_cover.png";
+data:ign "https://www.ign.com/articles/2011/11/10/the-elder-scrolls-v-skyrim-review";
+data:gamespot "https://www.gamespot.com/reviews/the-elder-scrolls-v-skyrim-review/1900-6344622/";
+data:metacritic "https://www.metacritic.com/game/pc/the-elder-scrolls-v-skyrim";
+.
+
+data:027 rdf:type data:review;
+data:title "Star Wars: The Old Republic";
+data:description " Malak meninggalkan Ordo Jedi untuk menjadi seorang Sith selama perang Mandalorian dibawah bimbingan dari Dark Lord Revan. Peperangan yang terjadi di era ini sempat membuat ordo Jedi hancur. Hal itu disebabkan begitu banyak korban dari sisi para Jedi, belum lagi yang melanggar sumpah setianya dan beralih ke dark side bersama Darth Malak. ";
+data:cover "https://upload.wikimedia.org/wikipedia/en/thumb/3/3c/Star_Wars-_The_Old_Republic_cover.jpg/220px-Star_Wars-_The_Old_Republic_cover.jpg";
+data:ign "https://www.ign.com/articles/2012/01/07/star-wars-the-old-republic-review";
+data:gamespot "https://www.gamespot.com/games/star-wars-the-old-republic/reviews/";
+data:metacritic "https://www.metacritic.com/game/pc/star-wars-the-old-republic";
+.
+
+data:028 rdf:type data:review;
+data:title "Titanfall";
+data:description "Titanfall ini dimulai dari hadirnya perseteruan antara dua kelompok yaitu IMC dan Militia, di sebuah tempat bernama The Frontier. Kita sendiri akan bermain sebagai pilot dari Titan, dimana karakter kita dapat mengeluarkan aksi parkour, dengan berloncat-loncat kesana kemari dengan cepat, berjalan di tembok-tembok dan mengagetkan musuh. Hal ini karena pilot dilengkapi jet-pack untuk membuatnya lebih leluasa dan mampu bergerak super cepat. Bahkan penggunaan senjata sniper dalam Titanfall akan menjadi terasa sulit, karena kebanyakan pilot musuh beterbangan dan berlari dengan cepatnya. ";
+data:cover "https://static4.gamespot.com/uploads/scale_medium/1365/13658182/3077168-titanfall2icon.jpg";
+data:ign "https://www.ign.com/articles/2014/03/10/titanfall-review-2";
+data:gamespot "https://www.gamespot.com/reviews/titanfall-review/1900-6415690/";
+data:metacritic "https://www.metacritic.com/game/pc/titanfall";
+.
+
+data:029 rdf:type data:review;
+data:title "Mortal Kombat 11";
+data:description "Mortal Kombat 11 merupakan game pertarungan yang dikembangkan oleh NetherRealm Studios dan diterbitkan oleh Warner Bros. Interactive Entertainment. Berjalan dengan versi Unreal Engine 3 yang dimodifikasi besar-besaran, ini adalah angsuran utama kesebelas dalam seri Mortal Kombat dan sekuel Mortal Kombat X tahun 2015. Diumumkan di The Game Awards 2018, game ini dirilis di Amerika Utara dan Eropa pada tanggal 23 April , 2019 untuk Microsoft Windows, Nintendo Switch, PlayStation 4, dan Xbox One — kecuali versi Switch Eropa yang dirilis pada 10 Mei 2019. Game tersebut dirilis di Stadia pada 19 November 2019.";
+data:cover "https://upload.wikimedia.org/wikipedia/en/7/7e/Mortal_Kombat_11_cover_art.png";
+data:ign "https://www.ign.com/articles/2019/04/22/mortal-kombat-11-review";
+data:gamespot "https://www.gamespot.com/reviews/mortal-kombat-11-review/1900-6417127/";
+data:metacritic "https://www.metacritic.com/game/pc/mortal-kombat-11";
+.
+
+data:030 rdf:type data:review;
+data:title "Trials Evolution";
+data:description "Trials Evolution adalah gim video balap untuk Xbox 360 dan Microsoft Windows dimana setiap pemain mengontrol pengendara sepeda motor yang melintasi rintangan. Game ini dikembangkan oleh RedLynx dan diterbitkan oleh Microsoft Studios. Ini adalah tindak lanjut dari Trials HD tahun 2009 dan penerus beberapa game Percobaan sebelumnya oleh pengembang yang sama.";
+data:cover "https://upload.wikimedia.org/wikipedia/en/2/20/TrialsEvolutionBox.jpg";
+data:ign "https://www.ign.com/articles/2012/04/17/trials-evolution-review";
+data:gamespot "https://www.gamespot.com/reviews/trials-evolution-review/1900-6373247/";
+data:metacritic "https://www.metacritic.com/game/pc/trials-evolution";
+.
+
+data:031 rdf:type data:review;
+data:title "Riders Republic";
+data:description "Riders Republic ada di sini... Bertemu dan berkompetisi dengan pemain lain dan berkuda keras di berbagai aktivitas liar, termasuk bersepeda, ski, snowboard, wingsuit, dan rocket wingsuit.";
+data:cover "https://upload.wikimedia.org/wikipedia/en/8/8d/Riders_Republic_cover_art.jpg";
+data:ign "https://www.ign.com/games/riders-republic";
+data:gamespot "https://www.gamespot.com/games/riders-republic/reviews/";
+data:metacritic "https://www.metacritic.com/game/pc/riders-republic";
+.
+
+data:032 rdf:type data:review;
+data:title "The Crew";
+data:description "Sebenarnya The Crew mempunyai konsep yang cukup bagus. Game ini mungkin cukup tepat kalo saya sebut sebagai MMO racing dengan konsep grinding seperti RPG. Kamu akan bermain sebagai seseorang yang sayangnya berada di tempat dan waktu yang salah. Agen FBI kemudian menjanjikan kamu kebebasan dan juga pembalasan dendam jika kamu mau menjadi kaki tangan mereka untuk menyusup ke dalam sebuah organisasi kejahatan yang sangat kental dengan aktivitas balapannya. Berbagai misi berbahaya kamu jalankan untuk mulai menyusup dan mendapatkan kepercayaan sang bos besar.";
+data:cover "https://upload.wikimedia.org/wikipedia/en/f/ff/The_Crew_box_art.jpg";
+data:ign "https://www.ign.com/articles/2014/12/02/the-crew-review";
+data:gamespot "https://www.gamespot.com/reviews/the-crew-review/1900-6415988/";
+data:metacritic "https://www.metacritic.com/movie/the-crew";
+.
+
+data:033 rdf:type data:review;
+data:title "Child of Light";
+data:description "Seperti layaknya sebuah cerita dongeng klasik yang pernah kita dengar sejak zaman kanak-kanak, Child of Light memang seolah dilahirkan dari halaman-halaman penuh keajaiban tersebut. Kesan tersebut sudah mengalir kuat sejak pertama kali Anda melihatnya. Implementasi UbiArt Framework harus diakui berhasil menciptakan gaya visualisasi artwork yang kentara, menggabungkan kekuatan desain dan visualisasi warna dalam porsi proporsional. Mempersiapkan Anda untuk sebuah cerita masa kecil tentang petualangan, kerajaan, dan seorang putri manis.";
+data:cover "https://upload.wikimedia.org/wikipedia/en/8/8c/Child_of_Light_art.jpg";
+data:ign "https://www.ign.com/articles/2014/04/29/child-of-light-review";
+data:gamespot "https://www.gamespot.com/reviews/child-of-light-review/1900-6415744/";
+data:metacritic "https://www.metacritic.com/game/pc/child-of-light";
+.
+
+data:034 rdf:type data:review;
+data:title "Prince of Persia: The Sands of Time";
+data:description "Permainan ini mengikuti Pangeran yang tidak disebutkan namanya yang ayahnya merampok kota kuno atas dorongan Wazir pengkhianat. Selama serangan itu, Pangeran mendapatkan artefak yang disebut Belati Waktu, sementara pasukan ayahnya menangkap jam pasir yang berisi Pasir Waktu yang misterius. Mengunjungi istana Sultan Azad untuk mempersembahkan Sands sebagai hadiah, Wazir menipu Pangeran untuk melepaskan Pasir, mengubah orang-orang Azad menjadi monster buas di bawah kendalinya. Bersama Farah, seorang Putri muda yang mengetahui kekuatan Sands, Pangeran bekerja untuk memperbaiki kesalahannya dan menggagalkan rencana jahat Wazir. Gameplay berputar di sekitar kemampuan platforming Pangeran, dipecah oleh perkelahian dengan makhluk yang diciptakan oleh Sands. Mekanik utama dalam game ini menggunakan Dagger untuk memundurkan waktu jika Pangeran membuat kesalahan platforming, dan menggunakannya untuk membunuh dan membekukan musuh.";
+data:cover "https://upload.wikimedia.org/wikipedia/en/8/86/Sands_of_time_cover.jpg";
+data:ign "https://www.ign.com/articles/2003/11/07/prince-of-persia-the-sands-of-time-4";
+data:gamespot "https://www.gamespot.com/reviews/prince-of-persia-the-sands-of-time-review/1900-6081687/";
+data:metacritic "https://www.metacritic.com/game/pc/prince-of-persia-the-sands-of-time";
+.
+
+data:035 rdf:type data:review;
+data:title "Anno 1800";
+data:description "Jika pada seri sebelumnya Anno 2070 mengangkat tema ekspedisi bulan, Ubisoft kembali mengajak pemainnya ke Bumi dalam Anno 1800. Tidak menggunakan latar waktu kontemporer, game ini menggunakan latar waktu Revolusi Industri, saat manusia mulai menemukan minyak bumi dan memanfaatkannya untuk kehidupan sehari-hari.";
+data:cover "https://upload.wikimedia.org/wikipedia/en/7/79/Anno_1800_cover.png";
+data:ign "https://sea.ign.com/anno-1800/148297/review/anno-1800-review";
+data:gamespot "https://www.gamespot.com/games/anno-1800/";
+data:metacritic "https://www.metacritic.com/game/pc/anno-1800";
+.
+
+data:036 rdf:type data:review;
+data:title "Steep";
+data:description "Kalau selama ini Ubisoft terkenal sebagai penerbit game bertema bunuh-bunuhan atau perang-perangan, Steep justru mengusung genre yang sudah lama tak kelihatan batang hidungnya yaitu olahraga ekstrem. Kamu akan diajak menjelajah pegunungan Alpen sambil bermain ski, snowboard, paragliding, hingga wingsuit! Seluruh olahraga tersebut kamu lakukan dalam lingkungan open world yang luas dan berselimut salju.";
+data:cover "https://upload.wikimedia.org/wikipedia/en/0/0b/Steep_cover_art.jpg";
+data:ign "https://www.ign.com/articles/2016/12/07/steep-review";
+data:gamespot "https://www.gamespot.com/reviews/steep-review/1900-6416591/";
+data:metacritic "https://www.metacritic.com/game/pc/steep";
+.
+
+data:037 rdf:type data:review;
+data:title "Tom Clancy’s The Division 2";
+data:description "Tom Clancy's The Division 2 mengisahkan perjuangan agen The Division yang bertugas mengembalikan pemerintahan Amerika Serikat di kota yang terkena wabah virus. Kali ini giliran mereka untuk mengembalikan pemerintah di jantung negara tersebut yaitu Washington DC.";
+data:cover "https://upload.wikimedia.org/wikipedia/en/0/03/The_Division_box.jpg";
+data:ign "https://www.ign.com/articles/2019/03/20/the-division-2-review";
+data:gamespot "https://www.gamespot.com/games/tom-clancys-the-division-2/reviews/";
+data:metacritic "https://www.metacritic.com/game/pc/tom-clancys-the-division-2";
+.
+
+data:038 rdf:type data:review;
+data:title "Tom Clancy's Rainbow Six Siege";
+data:description " Garis cerita Rainbow Six Siege berpusat pada dimatikannya tim khusus Rainbow untuk waktu yang sangat lama. Vakumnya pasukan militer khusus tersebut berimbas pada hal yang negatif, yakni munculnya kekuatan terorisme di beragam tempat.";
+data:cover "https://upload.wikimedia.org/wikipedia/id/thumb/4/47/Tom_Clancy%27s_Rainbow_Six_Siege_cover_art.jpg/250px-Tom_Clancy%27s_Rainbow_Six_Siege_cover_art.jpg";
+data:ign "https://www.ign.com/articles/2015/11/30/rainbow-six-siege-review";
+data:gamespot "https://www.gamespot.com/games/tom-clancys-rainbow-six-siege/";
+data:metacritic "https://www.metacritic.com/game/pc/tom-clancys-rainbow-six-siege";
+.
+
+data:039 rdf:type data:review;
+data:title "Rayman Legends";
+data:description "Rayman Legends terbukti bisa menjadi game yang bisa dimainkan oleh siapa saja tanpa pandang usia dan gender. Game ini juga sangat ramah ruang keluarga karena bisa dimainkan oleh banyak orang sekaligus.";
+data:cover "https://upload.wikimedia.org/wikipedia/en/f/f6/Rayman_Legends_Box_Art.jpg";
+data:ign "https://sea.ign.com/xbox-360/64443/review/rayman-legends-review";
+data:gamespot "https://www.gamespot.com/reviews/rayman-legends-review/1900-6413903/";
+data:metacritic "https://www.metacritic.com/game/pc/rayman-legends";
+.
+
+data:040 rdf:type data:review;
+data:title "Watch Dogs";
+data:description " Watch Dogs adalah sebuah game action adventure open-world yang dikembangkan oleh Ubisoft. Game ini pertama kali diumumkan dua tahun lalu dan dipromosikan sebagai salah satu game next-gen yang paling pertama kali dipamerkan untuk publik.";
+data:cover "https://upload.wikimedia.org/wikipedia/en/thumb/d/d9/Watch_Dogs_box_art.jpg/220px-Watch_Dogs_box_art.jpg";
+data:ign "https://sea.ign.com/watchdogs/68475/review/watch-dogs-review";
+data:gamespot "https://www.gamespot.com/reviews/watch-dogs-review/1900-6415770/";
+data:metacritic "https://www.metacritic.com/game/pc/watch-dogs";
+.
+
+data:cat1 rdf:type data:category;
+data:categoryName "Action" .
+data:cat2 rdf:type data:category;
+data:categoryName "Adventure" .
+data:cat3 rdf:type data:category;
+data:categoryName "Racing" .
+data:cat4 rdf:type data:category;
+data:categoryName "Puzzle" .
+data:cat5 rdf:type data:category;
+data:categoryName "FPS" .
+data:cat6 rdf:type data:category;
+data:categoryName "RPG" .
+data:cat7 rdf:type data:category;
+data:categoryName "Sandbox" .
+data:cat8 rdf:type data:category;
+data:categoryName "Survival" .
+data:cat9 rdf:type data:category;
+data:categoryName "Open World" .
+data:cat10 rdf:type data:category;
+data:categoryName "Horror" .
+
+
+data:001 data:isCategorized data:cat1 .
+data:001 data:isCategorized data:cat2 .
+data:002 data:isCategorized data:cat1 .
+data:002 data:isCategorized data:cat5 .
+data:003 data:isCategorized data:cat1 .
+data:003 data:isCategorized data:cat9 .
+data:004 data:isCategorized data:cat1 .
+data:004 data:isCategorized data:cat2 .
+data:004 data:isCategorized data:cat3 .
+data:005 data:isCategorized data:cat1 .
+data:005 data:isCategorized data:cat2 .
+data:006 data:isCategorized data:cat1 .
+data:006 data:isCategorized data:cat2 .
+data:006 data:isCategorized data:cat9 .
+data:007 data:isCategorized data:cat4 .
+data:008 data:isCategorized data:cat7 .
+data:008 data:isCategorized data:cat8 .
+data:008 data:isCategorized data:cat2 .
+data:009 data:isCategorized data:cat1 .
+data:009 data:isCategorized data:cat9 .
+data:008 data:isCategorized data:cat4 .
+data:008 data:isCategorized data:cat4 .
+data:009 data:isCategorized data:cat1 .
+data:009 data:isCategorized data:cat9 .
+data:010 data:isCategorized data:cat8 .
+data:010 data:isCategorized data:cat2 .
+data:011 data:isCategorized data:cat6 .
+data:011 data:isCategorized data:cat9 .
+data:011 data:isCategorized data:cat2 .
+data:012 data:isCategorized data:cat9 .
+data:012 data:isCategorized data:cat8 .
+data:012 data:isCategorized data:cat7 .
+data:013 data:isCategorized data:cat1 .
+data:013 data:isCategorized data:cat2 .
+data:013 data:isCategorized data:cat9 .
+data:014 data:isCategorized data:cat1 .
+data:014 data:isCategorized data:cat2 .
+data:014 data:isCategorized data:cat9 .
+data:015 data:isCategorized data:cat9 .
+data:015 data:isCategorized data:cat2 .
+data:015 data:isCategorized data:cat4 .
+data:016 data:isCategorized data:cat10 .
+data:016 data:isCategorized data:cat1 .
+data:016 data:isCategorized data:cat8 .
+data:016 data:isCategorized data:cat10 .
+data:017 data:isCategorized data:cat1 .
+data:017 data:isCategorized data:cat8 .
+data:017 data:isCategorized data:cat10 .
+data:018 data:isCategorized data:cat1 .
+data:018 data:isCategorized data:cat2 .
+data:019 data:isCategorized data:cat5 .
+data:019 data:isCategorized data:cat1 .
+data:020 data:isCategorized data:cat5 .
+data:020 data:isCategorized data:cat1 .
+data:021 data:isCategorized data:cat9 .
+data:021 data:isCategorized data:cat5 .
+data:021 data:isCategorized data:cat1 .
+data:022 data:isCategorized data:cat9 .
+data:022 data:isCategorized data:cat5 .
+data:022 data:isCategorized data:cat1 .
+data:023 data:isCategorized data:cat9 .
+data:023 data:isCategorized data:cat5 .
+data:023 data:isCategorized data:cat1 .
+data:024 data:isCategorized data:cat6 .
+data:024 data:isCategorized data:cat9 .
+data:025 data:isCategorized data:cat6 .
+data:025 data:isCategorized data:cat9 .
+data:026 data:isCategorized data:cat6 .
+data:026 data:isCategorized data:cat9 .
+data:026 data:isCategorized data:cat2 .
+data:027 data:isCategorized data:cat6 .
+data:027 data:isCategorized data:cat9 .
+data:028 data:isCategorized data:cat5 .
+data:028 data:isCategorized data:cat1 .
+data:029 data:isCategorized data:cat1 .
+data:030 data:isCategorized data:cat3 .
+data:031 data:isCategorized data:cat3 .
+data:032 data:isCategorized data:cat3 .
+data:033 data:isCategorized data:cat6 .
+data:033 data:isCategorized data:cat2 .
+data:034 data:isCategorized data:cat1 .
+data:035 data:isCategorized data:cat3 .
+data:036 data:isCategorized data:cat3 .
+data:037 data:isCategorized data:cat1 .
+data:037 data:isCategorized data:cat9 .
+data:038 data:isCategorized data:cat5 .
+data:038 data:isCategorized data:cat1 .
+data:039 data:isCategorized data:cat2 .
+data:039 data:isCategorized data:cat4 .
+data:040 data:isCategorized data:cat1 .
+data:040 data:isCategorized data:cat9 .
