@@ -6,7 +6,6 @@ module.exports = {
     getFilms: async (req, res) => {
         try {
             let films = await FilmConnection.getFilms(req.query);
-
             if (!films.bindings.length) {
                 return res.status(200).json({
                     success: true,
@@ -15,11 +14,10 @@ module.exports = {
                     message: 'Data Film tidak ditemukan'
                 })
             }
-
             films = films.bindings.map((film) => FormatFilm(film));
-
             if (req.params.id) {
-                let film = films.filter((films) => { return film.uri.substring(19) == req.params.id });
+                let film = films.filter((film) => { 
+                    return film.id == req.params.id });
                 
                 return res.status(200).json({
                     success: true,
@@ -49,7 +47,6 @@ module.exports = {
     getGenreFilm: async (req, res) => {
         try {
             let genres = await FilmConnection.getGenreByFilm(req.query);
-
             if (!genres.bindings.length) {
                 return res.status(200).json({
                     success: true,
