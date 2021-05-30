@@ -21,21 +21,17 @@ data:2 rdf:type data:film;
     data:duration "150";
     .
 
-    data:gen1 rdf:type data:genre;
-    data:genreName "Thriller" .
-    data:gen2 rdf:type data:genre;
-    data:genreName "Action" .
-    data:gen3 rdf:type data:genre;
-    data:genreName "Crime" .
-    data:gen4 rdf:type data:genre;
-    data:genreName "Sci-fi" .
+    data:Thriller rdf:type data:genre .
+    data:Action rdf:type data:genre .
+    data:Crime rdf:type data:genre .
+    data:Science rdf:type data:genre .
 
-    data:1 data:isGenre data:gen1 .
-    data:1 data:isGenre data:gen2 .
-    data:1 data:isGenre data:gen3 .
-    data:2 data:isGenre data:gen1 .
-    data:2 data:isGenre data:gen2 .
-    data:2 data:isGenre data:gen4 .
+    data:1 data:isGenre data:Thriller .
+    data:1 data:isGenre data:Action .
+    data:1 data:isGenre data:Crime .
+    data:2 data:isGenre data:Thriller .
+    data:2 data:isGenre data:Action .
+    data:2 data:isGenre data:Science .
 
    
 

@@ -104,5 +104,36 @@ module.exports = {
                 message: `Error: ${err.message}`
             })
         }
-    }
+    },
+    getFilmByActor: async (req, res) => {
+        try {
+            let films = await FilmConnection.getFilmByActor(req.params);
+
+            if (!films.bindings.length) {
+                return res.status(200).json({
+                    success: true,
+                    status: 200,
+                    data: [],
+                    message: 'Data film tidak ditemukan'
+                })
+            }
+
+            films = films.bindings.map((film) => FormatFilm(film));
+
+            return res.status(200).json({
+                success: true,
+                status: 200,
+                data: films,
+                message: 'Data semua film berhasil didapatkan'
+            });
+            
+        } catch (err) {
+            return res.status(200).json({
+                success: false,
+                status: 200,
+                data: '',
+                message: `Error: ${err.message}`
+            })
+        }
+    },
 }

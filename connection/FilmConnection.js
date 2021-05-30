@@ -45,14 +45,13 @@ exports.getGenreByFilm = async(param) => {
         query: `PREFIX data:<http://example.com/>
         PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
         
-        SELECT DISTINCT ?id ?genreID ?genreName
+        SELECT DISTINCT ?genreID ?genreName
         
         WHERE {
-          ?uri rdf:type data:film.
-          ?uri data:id ?id.
-          ?uri data:isGenre ?genreID.
-          ?genreID data:genre ?genreName.
-          FILTER(regex(str(?uri), "${param.uri ? param.uri : ''}", "i"))
+          ?sub rdf:type data:film.
+          ?sub data:isGenre ?genreID.
+          OPTIONAL {?genreID data:genre ?genreName.}
+          FILTER(regex(str(?sub), "${param.sub ? param.sub : ''}", "i"))
         }`
     }
     try{
@@ -84,6 +83,36 @@ exports.getFilmByGenre = async(param) => {
             OPTIONAL {?sub data:isGenre ?genreID.}
             OPTIONAL {?genreID data:genreName ?genreName.}
           FILTER(regex(str(?genreName), "${param.genre ? param.genre : ''}", "i"))
+        }`
+    }
+    try{
+        const {data} = await axios(`${DATA_URL}/filmku/query`,{
+            method: 'POST',
+            headers,
+            data: qs.stringify(queryData)
+        });
+        return data.results;
+    }catch(err){
+        res.status(400).json(err);
+    }
+}
+exports.getFilmByActor = async(param) => {
+    const queryData = {
+        query: `PREFIX data:<http://example.com/>
+        PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+        SELECT ?id ?title ?releaseYear ?director ?actorName ?description ?urlPic ?duration
+        WHERE {
+            ?sub rdf:type data:film.
+            OPTIONAL {?sub data:id ?id.}
+            OPTIONAL {?sub data:title ?title.}
+            OPTIONAL {?sub data:releaseYear ?releaseYear.}
+            OPTIONAL {?sub data:director ?director.}
+            OPTIONAL {?sub data:description ?description.}
+            OPTIONAL {?sub data:urlPic ?urlPic.}
+            OPTIONAL {?sub data:duration ?duration.}
+            OPTIONAL {?sub data:isActor ?actorID.}
+            OPTIONAL {?actorID data:actorName ?actorName.}
+          FILTER(regex(str(?actorName), "${param.actor ? param.actor : ''}", "i"))
         }`
     }
     try{
