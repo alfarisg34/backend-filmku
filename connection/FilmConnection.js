@@ -12,18 +12,20 @@ exports.getFilms = async(param)=>{
     const queryData = {
     query: `PREFIX data:<http://example.com/>
     PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> 
-    SELECT ?id ?title ?releaseYear ?director ?description ?urlPic ?duration
+    SELECT ?id ?title ?releaseYear ?director ?description ?urlPic ?duration ?actor
     WHERE{
         ?sub rdf:type data:film
         OPTIONAL {?sub data:id ?id.}
         OPTIONAL {?sub data:title ?title.}
         OPTIONAL {?sub data:releaseYear ?releaseYear.}
+        OPTIONAL {?sub data:actor ?actor.}
         OPTIONAL {?sub data:director ?director.}
         OPTIONAL {?sub data:description ?description.}
         OPTIONAL {?sub data:urlPic ?urlPic.}
         OPTIONAL {?sub data:duration ?duration.}
         FILTER regex(?title, "${param.title ? param.title : ''}", "i")
         FILTER regex(?releaseYear, "${param.releaseYear ? param.releaseYear : ''}", "i")
+        FILTER regex(?actor, "${param.actor ? param.actor : ''}", "i")
         FILTER regex(?director, "${param.director ? param.director : ''}", "i")
         FILTER regex(?description, "${param.description ? param.description : ''}", "i")
         FILTER regex(?duration, "${param.duration ? param.duration : ''}", "i")
