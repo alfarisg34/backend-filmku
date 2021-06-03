@@ -1,7 +1,7 @@
 @prefix data: <http://example.com/> .
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 
-data:1 rdf:type data:film;
+data:01 rdf:type data:film;
     data:id "38700";
     data:title "Bad Boys for Life";
     data:releaseYear "2020";
@@ -12,7 +12,7 @@ data:1 rdf:type data:film;
     data:duration "124";
     .
 
-data:2 rdf:type data:film;
+data:02 rdf:type data:film;
     data:id "577922";
     data:title "Tenet";
     data:releaseYear "2020";
@@ -23,7 +23,7 @@ data:2 rdf:type data:film;
     data:duration "150";
     .
 
-data:3 rdf:type data:film;
+data:03 rdf:type data:film;
     data:id "539537";
     data:title "Fantasy Island";
     data:releaseYear "2020";
@@ -35,7 +35,7 @@ data:3 rdf:type data:film;
     .
 
 
-data:5 rdf:type data:film;
+data:05 rdf:type data:film;
     data:id "497582";
     data:title "Enola Holmes";
     data:releaseYear "2020";
@@ -46,7 +46,7 @@ data:5 rdf:type data:film;
     data:duration "123";
     .
 
-data:6 rdf:type data:film;
+data:06 rdf:type data:film;
     data:id "399566";
     data:title "Godzilla vs. Kong";
     data:releaseYear "2021";
@@ -57,7 +57,7 @@ data:6 rdf:type data:film;
     data:duration "113";
     .
 
-data:7 rdf:type data:film;
+data:07 rdf:type data:film;
     data:id "351460";
     data:title "Death Note";
     data:releaseYear "2017";
@@ -67,7 +67,7 @@ data:7 rdf:type data:film;
     data:urlPic "https://www.themoviedb.org/t/p/w600_and_h900_bestv2/1X19j2albvewAdnTNHx2fFXjOcC.jpg";
     data:duration "101";
     .
-data:8 rdf:type data:film;
+data:08 rdf:type data:film;
     data:id "222935";
     data:title "The Fault in Our Stars";
     data:releaseYear "2014";
@@ -78,7 +78,7 @@ data:8 rdf:type data:film;
     data:duration "126";
     .
 
-data:9 rdf:type data:film;
+data:09 rdf:type data:film;
     data:id "736069";
     data:title "Justice Society: World War II";
     data:releaseYear "2021";
@@ -339,56 +339,56 @@ data:30 rdf:type data:film;
     data:genreName "Family" .
 
 
-    data:1 data:isGenre data:gen1 .
-    data:1 data:isGenre data:gen2 .
-    data:1 data:isGenre data:gen3 .
-    data:2 data:isGenre data:gen1 .
-    data:2 data:isGenre data:gen2 .
-    data:2 data:isGenre data:gen4 .
-    data:3 data:isGenre data:gen9 .
-    data:3 data:isGenre data:gen12 .
-    data:5 data:isGenre data:gen2 .
-    data:5 data:isGenre data:gen3 .
-    data:6 data:isGenre data:gen2 .
-    data:6 data:isGenre data:gen5 .
-    data:7 data:isGenre data:gen6 .
-    data:7 data:isGenre data:gen7 .
-    data:7 data:isGenre data:gen8 .
-    data:8 data:isGenre data:gen6 .
-    data:8 data:isGenre data:gen7 .
-    data:8 data:isGenre data:gen8 .
-    data:9 data:isGenre data:gen6 .
-    data:9 data:isGenre data:gen4 .
-    data:10 data:isGenre data:gen2 .
-    data:10 data:isGenre data:gen3 .
-    data:11 data:isGenre data:gen1 .
-    data:11 data:isGenre data:gen2 .
-    data:11 data:isGenre data:gen7 .
-    data:12 data:isGenre data:gen2 .
-    data:12 data:isGenre data:gen4 .
-    data:13 data:isGenre data:gen2 .
-    data:13 data:isGenre data:gen4 .
-    data:13 data:isGenre data:gen9 .
-    data:14 data:isGenre data:gen1 .
-    data:14 data:isGenre data:gen2 .
-    data:14 data:isGenre data:gen3 .
-    data:14 data:isGenre data:gen10 .
-    data:15 data:isGenre data:gen2 .
-    data:15 data:isGenre data:gen7 .
-    data:15 data:isGenre data:gen8 .
-    data:16 data:isGenre data:gen2 .
-    data:16 data:isGenre data:gen4 .
-    data:17 data:isGenre data:gen2 .
-    data:17 data:isGenre data:gen4 .
-    data:17 data:isGenre data:gen10 .
-    data:18 data:isGenre data:gen7 .
-    data:18 data:isGenre data:gen8 .
-    data:18 data:isGenre data:gen9 .
-    data:19 data:isGenre data:gen10 .
-    data:19 data:isGenre data:gen11 .
-    data:20 data:isGenre data:gen2 .
-    data:20 data:isGenre data:gen4 .
-    data:20 data:isGenre data:gen9 .
+data:01 data:isGenre data:gen1 .
+data:01 data:isGenre data:gen2 .
+data:01 data:isGenre data:gen3 .
+data:02 data:isGenre data:gen1 .
+data:02 data:isGenre data:gen2 .
+data:02 data:isGenre data:gen4 .
+data:03 data:isGenre data:gen9 .
+data:03 data:isGenre data:gen12 .
+data:05 data:isGenre data:gen2 .
+data:05 data:isGenre data:gen3 .
+data:06 data:isGenre data:gen2 .
+data:06 data:isGenre data:gen5 .
+data:07 data:isGenre data:gen6 .
+data:07 data:isGenre data:gen7 .
+data:07 data:isGenre data:gen8 .
+data:08 data:isGenre data:gen6 .
+data:08 data:isGenre data:gen7 .
+data:08 data:isGenre data:gen8 .
+data:09 data:isGenre data:gen6 .
+data:09 data:isGenre data:gen4 .
+data:10 data:isGenre data:gen2 .
+data:10 data:isGenre data:gen3 .
+data:11 data:isGenre data:gen1 .
+data:11 data:isGenre data:gen2 .
+data:11 data:isGenre data:gen7 .
+data:12 data:isGenre data:gen2 .
+data:12 data:isGenre data:gen4 .
+data:13 data:isGenre data:gen2 .
+data:13 data:isGenre data:gen4 .
+data:13 data:isGenre data:gen9 .
+data:14 data:isGenre data:gen1 .
+data:14 data:isGenre data:gen2 .
+data:14 data:isGenre data:gen3 .
+data:14 data:isGenre data:gen10 .
+data:15 data:isGenre data:gen2 .
+data:15 data:isGenre data:gen7 .
+data:15 data:isGenre data:gen8 .
+data:16 data:isGenre data:gen2 .
+data:16 data:isGenre data:gen4 .
+data:17 data:isGenre data:gen2 .
+data:17 data:isGenre data:gen4 .
+data:17 data:isGenre data:gen10 .
+data:18 data:isGenre data:gen7 .
+data:18 data:isGenre data:gen8 .
+data:18 data:isGenre data:gen9 .
+data:19 data:isGenre data:gen10 .
+data:19 data:isGenre data:gen11 .
+data:20 data:isGenre data:gen2 .
+data:20 data:isGenre data:gen4 .
+data:20 data:isGenre data:gen9 .
 data:21 data:isGenre data:gen4 .
 data:21 data:isGenre data:gen2 .
 data:21 data:isGenre data:gen9 .
