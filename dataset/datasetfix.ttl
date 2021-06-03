@@ -1,7 +1,7 @@
 @prefix data: <http://example.com/> .
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 
-data:01 rdf:type data:film;
+data:001 rdf:type data:film;
     data:id "38700";
     data:title "Bad Boys for Life";
     data:releaseYear "2020";
